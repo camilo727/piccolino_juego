@@ -1,0 +1,13 @@
+*{
+	margin: auto;
+	padding: auto;
+	box-sizing: border-box;
+}
+
+body{
+	background: #E0E4E5;
+	font-family: 'Open Sans', sans-serif;
+}
+div:focus {
+  outline: none !important;
+}

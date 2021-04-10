@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.titulo {
+    font-size: 25px;
+    padding: 30px;
+    color:black;
+
+}
