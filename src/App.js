@@ -84,7 +84,8 @@ class App extends Component {
   verificarSiHayGanador(baraja) {
     if (
       baraja.filter((carta) => !carta.fueAdivinada).length === 0
-    ) {
+    ) 
+    {
       window.open("https://piccolino.com.co/index.php/persona_controler/reguistro");
       window.location.replace('');
     }
