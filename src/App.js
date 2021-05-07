@@ -85,7 +85,7 @@ class App extends Component {
     if (
       baraja.filter((carta) => !carta.fueAdivinada).length === 0
     ) {
-      window.open("http://piccolino.com.co/index.php/persona_controler/reguistro");
+      window.open("https://piccolino.com.co/index.php/persona_controler/reguistro");
       window.location.replace('');
     }
   }
